@@ -1,12 +1,14 @@
-# OCR
+# The first SCU AI image competition.
 
-The first SCU AI image competition.
+rank : 1st
+
+Thanks to SCU AI lab's Support and Associate Professor Weihua Zhang's support!
 
 ## File
 
-## 简要说明
+### data 
 
-clone下来后先``python train.py``测试
+''http://scuaiclub.machineilab.org/competitions/technology''
 
 ### 完整使用说明
 
@@ -69,7 +71,7 @@ clone下来后先``python train.py``测试
 
 - dataset
 
-目前放入一张图片观察效果，请本地下载pan中数据集train and test
+请下载数据集train and test
 
 然后我把test->predict
 
@@ -100,13 +102,8 @@ train_annotation.json中定义了图片：lable
 - 读取原始图片素材
 - 将彩色图片二值化为黑白图片
 - 去除背景噪点
-
-### TODO
-
 - 选择模型
-
 - 神经网络代码构建
-
 - 测试评估
 
 
